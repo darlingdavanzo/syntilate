@@ -1,0 +1,70 @@
+body,
+html {
+	height: 100%;
+	position: relative;
+}
+
+#particles-js canvas {
+	display: block;
+	background-color: #000;
+	vertical-align: bottom;
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	opacity: 1;
+	-webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
+	transition: opacity .8s ease, transform 1.4s ease
+}
+
+#particles-js {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 0;
+	top: 0;
+	left: 0
+}
+
+.bg-nav {
+	/*background-color: rgba(26, 146, 2, 0.13)!important;*/
+	background-color: transparent;
+}
+.bg-card {
+	background-color: #28a74573;
+}
+
+.header-title { 
+	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 4rem;
+	font-weight: 200;
+}
+.header-text { 
+	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 2rem auto;
+	font-size: 1.25rem;
+    font-weight: 300;
+	color: rgba(255, 255, 255, 0.75);
+}
+
+#fp-nav {
+    position: fixed;
+    z-index: 100;
+    top: 50%;
+    opacity: 1;
+    -webkit-transform: translate3d(0,0,0);
+}
+#fp-nav.right {
+    right: 20px;
+}
+
+#fp-nav ul { list-style: none; }
+#fp-nav a {
+	color: #28a745;
+	-webkit-transition: .5s all ease-out;
+    -moz-transition: .5s all ease-out;
+    transition: .5s all ease-out
+}
+#fp-nav a.active{ color: #fff; }
+#fp-nav a:hover {
+	color: #fff;
+}
