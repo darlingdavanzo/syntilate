@@ -8,7 +8,7 @@
 
 @section('content')
 	<div id="particles-js"></div>
-	<div id="01-intro" class="container-fluid h-100">
+	<div id="home" class="container-fluid h-100">
 		<div class="row h-100">
 			<div class="offset-2 col-sm-8 h-100 d-flex flex-column align-items-center justify-content-center">		
 				<img class="img-fluid" src="{{ @asset('assets/images/Syntilate.png') }}" width="">		
@@ -24,7 +24,13 @@
 		</div>
 		<div id="whatwedo" class="row h-100">
 
-			<div class="col-sm" style="background-color: green">
+			<div class="col-sm" style="background: url({{ @asset('assets/images/1052.jpg')  }}); background-size: cover">
+				
+			</div>
+		</div>
+		<div id="ourstack" class="row h-100">
+
+			<div class="col-sm" style="background: url({{ @asset('assets/images/18783.jpg')  }}); background-size: cover">
 				
 			</div>
 		</div>
@@ -84,9 +90,9 @@
 	</div>
 	<div id="fp-nav" class="right" style="margin-top: -50px;">
 		<ul class="nav flex-column">
-			<li class="nav-item"><a href="#01-intro" class="nav-link active"><i class="fa fa-circle"></i></a></li>
+			<li class="nav-item"><a href="#home" class="nav-link active"><i class="fa fa-circle"></i></a></li>
 			<li class="nav-item"><a href="#whatwedo" class="nav-link"><i class="fa fa-circle"></i></a></li>
-			<li class="nav-item"><a href="#03-second-content" class="nav-link"><i class="fa fa-circle"></i></a></li>
+			<li class="nav-item"><a href="#ourstack" class="nav-link"><i class="fa fa-circle"></i></a></li>
 			<li class="nav-item"><a href="#04-third-content" class="nav-link"><i class="fa fa-circle"></i></a></li>
 		</ul>
 	</div>
