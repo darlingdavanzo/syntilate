@@ -9,7 +9,7 @@
 @section('content')
   <div id="particles-js"></div>
   <div class="container-fluid h-100">
-    <div class="row h-100 bg-danger"></div>
+    <div class="row h-100 bg-danger" style="z-index: 10"></div>
     <div class="row h-100 bg-warning"></div>
     <div class="row h-100 bg-info"></div>
   </div>

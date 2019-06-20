@@ -2,7 +2,7 @@ $(document).ready(function(){
   
 
   // Add smooth scrolling on all links inside the navbar
-  $("#fp-nav a, #home a").on('click', function(event) {
+  $("#fp-nav a, #home a, #whatwedo a").on('click', function(event) {
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "") {
       // Prevent default anchor click behavior

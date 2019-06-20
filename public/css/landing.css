@@ -45,8 +45,13 @@ html {
     font-weight: 300;
 	color: rgba(255, 255, 255, 0.75);
 }
-
-#fp-nav {
+.subtitle {
+	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 2rem;
+	font-weight: 200;
+}
+#fp-nav{z-index: 100;}
+/*#fp-nav {
     position: fixed;
     z-index: 100;
     top: 50%;
@@ -57,10 +62,12 @@ html {
     right: 20px;
 }
 
-#fp-nav ul { list-style: none; }
+#fp-nav ul { list-style: none; }*/
 #fp-nav a {
 	/*color: #42a832;*/
-	color: #59ba61;
+	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;	
+    font-weight: bold;	
+	color: #fff;
 	-webkit-transition: .5s all ease-out;
     -moz-transition: .5s all ease-out;
     transition: .5s all ease-out
@@ -68,4 +75,13 @@ html {
 #fp-nav a.active{ color: red; }
 #fp-nav a:hover {
 	color: red;
+}
+.listservices {
+  list-style: none; /* Remove list bullets */
+  padding: 0;
+  margin: 0;
+}
+.listservices li:before {
+  content: "–"; /* Insert content that looks like bullets */
+  padding-right: 8px;
 }

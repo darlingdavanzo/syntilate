@@ -7,6 +7,27 @@
 @endsection
 
 @section('content')
+	<nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: transparent;">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#fp-nav" aria-controls="fp-nav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="fp-nav">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#whatwedo">What we do?</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#aboutus">About us</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#contactus">Contact us</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
 	<div id="particles-js"></div>
 	<div  class="container-fluid h-100">
 		<div id="home" class="row h-100">
@@ -23,46 +44,72 @@
 			</div>
 		</div>
 		<div id="whatwedo" class="row h-100">
-			<div class="col-sm-12" style="background-color: #42a832">
+			<div class="col-sm-12" style="background-color: #4bc35c">
 				<h1 class="text-white header-title text-center pt-5">What we do ?</h1>
-				<div class="container" style="padding: 30px; background-color: rgb(255,255,255,0.2); border-radius: 10px;">
-					<div class="row">
-						<div class="col-sm text-center">
-							<img src="https://image.freepik.com/vettori-gratuito/interfaccia-hud-futuristica-con-stile-sfumato_23-2147907638.jpg" class="rounded-circle img-fluid" alt="" width="40%"/>
+				<p class="text-white subtitle text-center pt-5">We analyze, prototype & build software, websites, web & mobile applications <br>for a wide variety of platforms. <br>We offer: </p>
+				<div class="container-fluid">
+					<div class="row pt-5 pb-5">
+						<div class="col-sm">
+							<h4 class="text-white text-center">Software Engineer</h4>
+							<ul class="text-white listservices text-center">
+								<li>Information architecture</li>
+								<li>Prototyping</li>
+								<li>Wireframing</li>
+								<li>Digital product design</li>
+								<li>Responsive development</li>
+								<li>Mobile development</li>
+								<li>Custom web applications</li>
+							</ul>
 						</div>
 						<div class="col-sm">
-							<h4 class="text-white text-center">Find rewarding projects</h4>
-							<p class="text-white text-center">Freedom to work on ideal projects. On GetLance, you run your own business and choose your own clients and projects. Just complete your profile and we’ll highlight ideal jobs. Also search projects, and respond to client invitations. Wide variety and high pay. Clients are now posting jobs in hundreds of skill categories, paying top price for great work.</p>
-						</div>
-					</div>
-					<div class="row pt-5">
-						<div class="col-sm">
-							<h4 class="text-white text-center">Find rewarding projects</h4>
-							<p class="text-white text-center">Freedom to work on ideal projects. On GetLance, you run your own business and choose your own clients and projects. Just complete your profile and we’ll highlight ideal jobs. Also search projects, and respond to client invitations. Wide variety and high pay. Clients are now posting jobs in hundreds of skill categories, paying top price for great work. More and more success. .</p>
-						</div>
-						<div class="col-sm text-center">
-							<img src="https://image.freepik.com/vettori-gratuito/interfaccia-hud-futuristica-con-stile-sfumato_23-2147909276.jpg" class="rounded-circle img-fluid" alt="" width="40%"/>
-						</div>
-					</div>				
-					<div class="row pt-5">
-						<div class="col-sm text-center">
-							<img src="https://image.freepik.com/vettori-gratuito/interfaccia-hud-futuristica-con-stile-sfumato_23-2147914520.jpg" class="rounded-circle img-fluid" alt="" width="40%" />
+							<h4 class="text-white text-center">Website & Application Development</h4>
+							<ul class="text-white listservices text-center">
+								<li>Social media strategy</li>
+								<li>Website analytics</li>
+								<li>Search Engine Optimization (SEO)</li>
+								<li>Branding</li>
+								<li>Art direction & visual design</li>
+								<li>Illustration & iconography</li>
+								<li>UI/UX design</li>
+							</ul>
 						</div>
 						<div class="col-sm">
-							<h4 class="text-white text-center">Find rewarding projects</h4>
-							<p class="text-white text-center">Freedom to work on ideal projects. On GetLance, you run your own business and choose your own clients and projects. Just complete your profile and we’ll highlight ideal jobs. Also search projects, and respond to client invitations. Wide variety and high pay. Clients are now posting jobs in hundreds of skill categories, paying top price for great work. More and more success. </p>
+							<h4 class="text-white text-center">IT Consulting</h4>
+							<ul class="text-white listservices text-center">
+								<li>Content management systems (CMS)</li>
+								<li>Front-end development</li>
+								<li>Back-end development</li>
+								<li>Quality testing</li>
+								<li>E-commerce</li>
+								<li>Multilingual support</li>
+							</ul>
 						</div>
 					</div>
 				</div>
+				<h3 class="text-white subtitle text-center pt-5 pb-5">And many more services.</h3>
+				<div class="d-flex align-items-center justify-content-center">
+					<a class="nav-link btn btn-lg btn-outline-light" href="#aboutus">About Us</a>
+				</div>
 			</div>
 		</div>
-		<div id="ourstack" class="row h-100">
-				<div class="col-sm bg-white" style="background: url({{ @asset('assets/images/19276.jpg')  }}); background-size: cover">
-					<div class="offset-sm-8 col-sm-4 ">					
-						<h1 class="text-dark header-title text-center pt-5">About us</h1>
-						<p class="text-dark text-center">Freedom to work on ideal projects. On GetLance, you run your own business and choose your own clients and projects. Just complete your profile and we’ll highlight ideal jobs. Also search projects, and respond to client invitations. Wide variety and high pay. Clients are now posting jobs in hundreds of skill categories, paying top price for great work. More and more success. </p>		
+		<div id="aboutus" class="row h-100">
+				<div class="col-sm-12 text-white" style="background-color: #629be7">
+								
+						<h1 class="header-title text-center pt-5">About us</h1>
+						<p class="text-white text-center pt-5 pb-5">Freedom to work on ideal projects. On GetLance, you run your own business and choose your own clients and projects. Just complete your profile and we’ll highlight ideal jobs. Also search projects, and respond to client invitations. Wide variety and high pay. Clients are now posting jobs in hundreds of skill categories, paying top price for great work. More and more success. </p>		
 						
-						<h1 class="text-dark header-title text-center pt-5">Contact us</h1>
+				</div>
+			
+		</div>
+		<div id="contactus" class="row h-100">
+			<div class="col-sm bg-dark">
+				<h1 class="header-title text-white text-center pt-5">Contact us</h1>
+				<p class="text-white text-center pt-5 pb-5">Freedom to work on ideal projects. On GetLance, you run your own business and choose your own clients and projects. Just complete your profile and we’ll highlight ideal jobs. Also search projects, and respond to client invitations. Wide variety and high pay. Clients are now posting jobs in hundreds of skill categories, paying top price for great work. More and more success. </p>
+				<div class="row">
+					<div class="col-sm-6">
+						<img src="https://media.carphonewarehouse.com/is/image/cpw2/p30-proCRYSTAL?$xl-retina$" width="40%"/>
+					</div>
+					<div class="col-sm-6">
 						<form action="#">
 							<div class="form-group">
 								<input class="form-control" type="text" placeholder="Name">
@@ -76,22 +123,21 @@
 						</form>
 					</div>
 				</div>
-			
+			</div>
 		</div>
-		<div id="contactus" class="row h-25">
-			<div class="col-sm bg-dark">
-				
+		<div class="row h-25">
+			<div class="col-sm" style="background-color: #000">
 			</div>
 		</div>
 	</div>
-	<div id="fp-nav" class="right" style="margin-top: -50px;">
+	<!--<div id="fp-nav" class="right" style="margin-top: -50px;">
 		<ul class="nav flex-column">
 			<li class="nav-item"><a href="#home" class="nav-link active"><i class="fa fa-circle"></i></a></li>
 			<li class="nav-item"><a href="#whatwedo" class="nav-link"><i class="fa fa-circle"></i></a></li>
-			<li class="nav-item"><a href="#ourstack" class="nav-link"><i class="fa fa-circle"></i></a></li>
+			<li class="nav-item"><a href="#aboutus" class="nav-link"><i class="fa fa-circle"></i></a></li>
 			<li class="nav-item"><a href="#contactus" class="nav-link"><i class="fa fa-circle"></i></a></li>
 		</ul>
-	</div>
+	</div>-->
 @endsection
 
 @section('scripts')
