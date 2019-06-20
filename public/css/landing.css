@@ -59,12 +59,13 @@ html {
 
 #fp-nav ul { list-style: none; }
 #fp-nav a {
-	color: #42a832;
+	/*color: #42a832;*/
+	color: #59ba61;
 	-webkit-transition: .5s all ease-out;
     -moz-transition: .5s all ease-out;
     transition: .5s all ease-out
 }
-#fp-nav a.active{ color: #fff; }
+#fp-nav a.active{ color: red; }
 #fp-nav a:hover {
-	color: #fff;
+	color: red;
 }
