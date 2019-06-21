@@ -116,19 +116,35 @@
 		<div id="contactus" class="row">
 			<div class="col-sm linearbg">
 				<div class="row h-100">
-					<div class="offset-sm-2 col-sm-8 ">
+					<div class="offset-sm-2 col-sm-8 mb-5">
 						<h1 class="header-title text-center text-white pt-5">Contact us</h1>
-						<form action="#" class="pt-5">
-							<div class="form-group">
-								<input class="form-control" type="text" placeholder="Name">
-							</div>
-							<div class="form-group">
-								<input class="form-control" type="text" placeholder="Name">
-							</div>
-							<div class="form-group">							
-								<textarea class="form-control" type="text" placeholder="Name"></textarea>
-							</div>								
-						</form>
+						<p class="subtitle text-center text-white">Se hai dei dubbi non esitare a contattarci</p>
+						<div class="row">
+								<div class="col-sm">
+							<form action="#" class="">
+									
+									<div class="form-group">
+										<input class="form-control" type="text" placeholder="Name">
+									</div>
+									<div class="form-group">
+										<input class="form-control" type="text" placeholder="Name">
+									</div>
+									<div class="form-group">
+										<input class="form-control" type="text" placeholder="Name">
+									</div>
+								</div>
+								<div class="col-sm" style="border-left: 1px solid #fff">
+									<div class="form-group">							
+										<textarea class="form-control" type="text" placeholder="Name"></textarea>
+									</div>								
+									<div class="form-group">							
+										<button class="btn btn-lg btn-outline-light">Send</button>
+									</div>								
+									
+									
+							</form>
+								</div>
+						</div>
 					</div>
 				</div>
 			</div>
