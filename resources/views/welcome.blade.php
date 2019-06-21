@@ -133,6 +133,55 @@
 				</div>
 			</div>
 		</div>
+
+		<!-- ICON NEEDS FONT AWESOME FOR CHEVRON UP ICON -->
+		<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+		<style type="text/css">
+			#return-to-top {
+				z-index: 1000;
+				position: fixed;
+				bottom: 20px;
+				right: 20px;
+				background: rgb(0, 0, 0);
+				background: rgba(0, 0, 0, 0.7);
+				width: 50px;
+				height: 50px;
+				display: block;
+				text-decoration: none;
+				-webkit-border-radius: 35px;
+				-moz-border-radius: 35px;
+				border-radius: 35px;
+				display: none;
+				-webkit-transition: all 0.3s linear;
+				-moz-transition: all 0.3s ease;
+				-ms-transition: all 0.3s ease;
+				-o-transition: all 0.3s ease;
+				transition: all 0.3s ease;
+			}
+			#return-to-top i {
+				z-index: 1000;
+				color: #fff;
+				margin: 0;
+				position: relative;
+				top: 13px;
+				font-size: 19px;
+				-webkit-transition: all 0.3s ease;
+				-moz-transition: all 0.3s ease;
+				-ms-transition: all 0.3s ease;
+				-o-transition: all 0.3s ease;
+				transition: all 0.3s ease;
+			}
+			#return-to-top:hover {
+				background: rgba(0, 0, 0, 0.9);
+			}
+			#return-to-top:hover i {
+				color: #fff;
+				top: 5px;
+			}
+		</style>
+		<!-- Return to Top -->
+		<a href="#" id="return-to-top" style="display: inline;"><i class="icon-chevron-up"></i></a>
+
 		<div class="row h-25" id="footer">
 			<div class="col-sm" style="background: url({{ @asset('assets/images/mosaic.png') }})">
 				<div class="container">
@@ -151,10 +200,19 @@
 					</div>	
 					<div class="row">
 						<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white pt-5">
-							<p class="h6">&copy All right Reversed.<a class="text-green ml-2" href="https://www.syntilate.com" target="_blank">Syntilate</a></p>
+							<p class="h6">
+								<p>© <a class="text-green ml-2" href="https://www.syntilate.com" target="_blank">Syntilate</a> 2019. Tutti i diritti riservati.</p>
+								<p><a href="mailto:info@syntilate.com">info@syntilate.com</a></p>
+								<ul class="list-inline">
+									<li class="list-inline-item">
+										<p>Syntilate - P.I. 01820200705 02818440428 - 
+										<a href="https://www.iubenda.com/privacy-policy/32123665" {{--class="iubenda-black iubenda-embed"--}} title="Privacy Policy ">Privacy Policy</a></p>
+									</li>
+								</ul>
+							</p>
 						</div>
 						</hr>
-					</div>	
+					</div>
 				</div>
 			</div>
 		</div>
@@ -174,6 +232,15 @@
 @endsection
 
 @section('scripts')
+	{{-- Privacy Policy --}}
+	<script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);
+	</script>
+	{{-- Cookie --}}
+	<script type="text/javascript">
+		var _iub = _iub || [];
+		_iub.csConfiguration = {"lang":"it","siteId":1616509,"cookiePolicyId":32123665, "banner":{ "acceptButtonDisplay":true,"customizeButtonDisplay":true,"position":"float-top-center" }};
+	</script>
+	<script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
 	<script src="{{ @asset('js/particles.min.js') }}"></script>
 	<script src="{{ @asset('js/particles.js') }}"></script>
 	<script src="{{ @asset('js/landing.js') }}"></script>
