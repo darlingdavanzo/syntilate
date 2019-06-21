@@ -44,15 +44,16 @@
 			</div>
 		</div>
 		<div id="whatwedo" class="row">
-			<div class="col-sm-12" style="background: url(https://subtlepatterns.toptal.io/designers/subtlepatterns/wp-content/themes/tweaker7/images/transp_bg.png) repeat">
+			<div class="col-sm-12" style="background: url({{ @asset('assets/images/transp_bg.png') }}) repeat">
 				<h1 class="text-dark header-title text-center pt-5">What we do ?</h1>
 				<p class="text-dark subtitle text-center pt-5">We analyze, prototype & build software, websites, web & mobile applications <br>for a wide variety of platforms. <br><br>We offer: </p>
 				<div class="container-fluid">
 					<div class="row pt-5 pb-5">
 						<div class="col-sm">
 							<div class="card bg-dark">	
-								<div class="card-body">						
-									<h4 class="card-title text-white text-center subtitle">Software Engineer</h4>
+								<div class="card-body">		
+									<div class="text-white text-center" style=""><i class="fa fa-server fa-5x bg-secondary mb-2" style="border-radius: 50%; padding: 20px"></i></div>
+									<h4 class="card-title text-white text-center subtitle">Software Engineering</h4>
 									<ul class="list-group text-center">
 										<li class="list-group-item">Information architecture</li>
 										<li class="list-group-item">Prototyping</li>
@@ -67,7 +68,7 @@
 						<div class="col-sm">
 							<div class="card bg-dark">
 								<div class="card-body">
-									<div class="text-white text-center" style=""><i class="fa fa-code fa-5x bg-secondary" style="border-radius: 50%; padding: 20px"></i></div>
+									<div class="text-white text-center mb-2" style=""><i class="fa fa-code fa-5x bg-secondary" style="border-radius: 50%; padding: 20px"></i></div>
 									<h4 class="card-title text-white text-center subtitle">Website & Application Development</h4>
 									<ul class="list-group text-center">
 										<li class="list-group-item">Social media strategy</li>
@@ -83,7 +84,9 @@
 						</div>
 						<div class="col-sm">
 							<div class="card bg-dark">	
-								<div class="card-body">						
+								<div class="card-body">	
+									<div class="text-white text-center mb-2" style=""><i class="fa fa-user-circle fa-5x bg-secondary" style="border-radius: 50%; padding: 20px"></i></div>
+
 									<h4 class="card-title text-white text-center subtitle">IT Consulting</h4>
 									<ul class="list-group text-center">
 										<li class="list-group-item">Content management systems (CMS)</li>
@@ -102,7 +105,7 @@
 			</div>
 		</div>
 		<div id="aboutus" class="row h-100">
-				<div class="col-sm-12 text-white bg-card">
+				<div class="col-sm-12 text-white" style="background: url({{ @asset('assets/images/mosaic.png') }})">
 								
 						<h1 class="header-title text-center pt-5">About us</h1>
 						<p class="text-white text-center pt-5 pb-5">Freedom to work on ideal projects. On GetLance, you run your own business and choose your own clients and projects. Just complete your profile and we’ll highlight ideal jobs. Also search projects, and respond to client invitations. Wide variety and high pay. Clients are now posting jobs in hundreds of skill categories, paying top price for great work. More and more success. </p>		
@@ -110,10 +113,10 @@
 				</div>
 			
 		</div>
-		<div id="contactus" class="row h-100">
-			<div class="col-sm">
+		<div id="contactus" class="row">
+			<div class="col-sm linearbg">
 				<div class="row h-100">
-					<div class="offset-sm-2 col-sm-8">
+					<div class="offset-sm-2 col-sm-8 ">
 						<h1 class="header-title text-center text-white pt-5">Contact us</h1>
 						<form action="#" class="pt-5">
 							<div class="form-group">
@@ -130,11 +133,36 @@
 				</div>
 			</div>
 		</div>
-		<div class="row h-25">
-			<div class="col-sm" style="border-top: 1px solid green; background-color: rgba(23, 78, 4, 0.3)">
+		<div class="row h-25" id="footer">
+			<div class="col-sm" style="background: url({{ @asset('assets/images/mosaic.png') }})">
+				<div class="container">
+					
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+							<ul class="list-unstyled list-inline social text-center">
+								<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-facebook"></i></a></li>
+								<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-twitter"></i></a></li>
+								<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-instagram"></i></a></li>
+								<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-google-plus"></i></a></li>
+								<li class="list-inline-item"><a href="javascript:void();" target="_blank"><i class="fa fa-envelope"></i></a></li>
+							</ul>
+						</div>
+						</hr>
+					</div>	
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white pt-5">
+							<p class="h6">&copy All right Reversed.<a class="text-green ml-2" href="https://www.syntilate.com" target="_blank">Syntilate</a></p>
+						</div>
+						</hr>
+					</div>	
+				</div>
 			</div>
 		</div>
+		<!-- Footer -->
+	
+	<!-- ./Footer -->
 	</div>
+
 	<!--<div id="fp-nav" class="right" style="margin-top: -50px;">
 		<ul class="nav flex-column">
 			<li class="nav-item"><a href="#home" class="nav-link active"><i class="fa fa-circle"></i></a></li>
