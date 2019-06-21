@@ -66,15 +66,15 @@ html {
 #fp-nav a {
 	/*color: #42a832;*/
 	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;	
-    font-weight: bold;	
-	color: #fff;
+    font-weight: 400;	
+	color: green;
 	-webkit-transition: .5s all ease-out;
     -moz-transition: .5s all ease-out;
     transition: .5s all ease-out
 }
-#fp-nav a.active{ color: red; }
+#fp-nav a.active{ /*color: #FF5733;*/ font-weight: bold }
 #fp-nav a:hover {
-	color: red;
+	/*color: red;*/ font-weight: bold
 }
 .listservices {
   list-style: none; /* Remove list bullets */
@@ -85,3 +85,5 @@ html {
   content: "–"; /* Insert content that looks like bullets */
   padding-right: 8px;
 }
+.bg-card { background-color: #252525 }
+.text-green { color: green; }

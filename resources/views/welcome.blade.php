@@ -7,7 +7,7 @@
 @endsection
 
 @section('content')
-	<nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: transparent;">
+	<nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #000;">
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#fp-nav" aria-controls="fp-nav" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -43,57 +43,66 @@
 				</p>
 			</div>
 		</div>
-		<div id="whatwedo" class="row h-100">
-			<div class="col-sm-12" style="background-color: #4bc35c">
-				<h1 class="text-white header-title text-center pt-5">What we do ?</h1>
-				<p class="text-white subtitle text-center pt-5">We analyze, prototype & build software, websites, web & mobile applications <br>for a wide variety of platforms. <br>We offer: </p>
+		<div id="whatwedo" class="row">
+			<div class="col-sm-12" style="background: url(https://subtlepatterns.toptal.io/designers/subtlepatterns/wp-content/themes/tweaker7/images/transp_bg.png) repeat">
+				<h1 class="text-dark header-title text-center pt-5">What we do ?</h1>
+				<p class="text-dark subtitle text-center pt-5">We analyze, prototype & build software, websites, web & mobile applications <br>for a wide variety of platforms. <br><br>We offer: </p>
 				<div class="container-fluid">
 					<div class="row pt-5 pb-5">
 						<div class="col-sm">
-							<h4 class="text-white text-center">Software Engineer</h4>
-							<ul class="text-white listservices text-center">
-								<li>Information architecture</li>
-								<li>Prototyping</li>
-								<li>Wireframing</li>
-								<li>Digital product design</li>
-								<li>Responsive development</li>
-								<li>Mobile development</li>
-								<li>Custom web applications</li>
-							</ul>
+							<div class="card bg-dark">	
+								<div class="card-body">						
+									<h4 class="card-title text-white text-center subtitle">Software Engineer</h4>
+									<ul class="list-group text-center">
+										<li class="list-group-item">Information architecture</li>
+										<li class="list-group-item">Prototyping</li>
+										<li class="list-group-item">Digital product design</li>
+										<li class="list-group-item">Responsive development</li>
+										<li class="list-group-item">Mobile development</li>
+										<li class="list-group-item">Custom web applications</li>
+									</ul>
+								</div>
+							</div>
 						</div>
 						<div class="col-sm">
-							<h4 class="text-white text-center">Website & Application Development</h4>
-							<ul class="text-white listservices text-center">
-								<li>Social media strategy</li>
-								<li>Website analytics</li>
-								<li>Search Engine Optimization (SEO)</li>
-								<li>Branding</li>
-								<li>Art direction & visual design</li>
-								<li>Illustration & iconography</li>
-								<li>UI/UX design</li>
-							</ul>
+							<div class="card bg-dark">
+								<div class="card-body">
+									<div class="text-white text-center" style=""><i class="fa fa-code fa-5x bg-secondary" style="border-radius: 50%; padding: 20px"></i></div>
+									<h4 class="card-title text-white text-center subtitle">Website & Application Development</h4>
+									<ul class="list-group text-center">
+										<li class="list-group-item">Social media strategy</li>
+										<li class="list-group-item">Website analytics</li>
+										<li class="list-group-item">Search Engine Optimization (SEO)</li>
+										<li class="list-group-item">Branding</li>
+										<li class="list-group-item">Art direction & visual design</li>
+										<li class="list-group-item">Illustration & iconography</li>
+										<li class="list-group-item">UI/UX design</li>
+									</ul>
+								</div>
+							</div>
 						</div>
 						<div class="col-sm">
-							<h4 class="text-white text-center">IT Consulting</h4>
-							<ul class="text-white listservices text-center">
-								<li>Content management systems (CMS)</li>
-								<li>Front-end development</li>
-								<li>Back-end development</li>
-								<li>Quality testing</li>
-								<li>E-commerce</li>
-								<li>Multilingual support</li>
-							</ul>
+							<div class="card bg-dark">	
+								<div class="card-body">						
+									<h4 class="card-title text-white text-center subtitle">IT Consulting</h4>
+									<ul class="list-group text-center">
+										<li class="list-group-item">Content management systems (CMS)</li>
+										<li class="list-group-item">Front-end development</li>
+										<li class="list-group-item">Back-end development</li>
+										<li class="list-group-item">Quality testing</li>
+										<li class="list-group-item">E-commerce</li>
+										<li class="list-group-item">Multilingual support</li>
+									</ul>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
-				<h3 class="text-white subtitle text-center pt-5 pb-5">And many more services.</h3>
-				<div class="d-flex align-items-center justify-content-center">
-					<a class="nav-link btn btn-lg btn-outline-light" href="#aboutus">About Us</a>
-				</div>
+				<h3 class="text-white subtitle text-center pb-5">And many more services.</h3>
 			</div>
 		</div>
 		<div id="aboutus" class="row h-100">
-				<div class="col-sm-12 text-white" style="background-color: #629be7">
+				<div class="col-sm-12 text-white bg-card">
 								
 						<h1 class="header-title text-center pt-5">About us</h1>
 						<p class="text-white text-center pt-5 pb-5">Freedom to work on ideal projects. On GetLance, you run your own business and choose your own clients and projects. Just complete your profile and we’ll highlight ideal jobs. Also search projects, and respond to client invitations. Wide variety and high pay. Clients are now posting jobs in hundreds of skill categories, paying top price for great work. More and more success. </p>		
@@ -102,15 +111,11 @@
 			
 		</div>
 		<div id="contactus" class="row h-100">
-			<div class="col-sm bg-dark">
-				<h1 class="header-title text-white text-center pt-5">Contact us</h1>
-				<p class="text-white text-center pt-5 pb-5">Freedom to work on ideal projects. On GetLance, you run your own business and choose your own clients and projects. Just complete your profile and we’ll highlight ideal jobs. Also search projects, and respond to client invitations. Wide variety and high pay. Clients are now posting jobs in hundreds of skill categories, paying top price for great work. More and more success. </p>
-				<div class="row">
-					<div class="col-sm-6">
-						<img src="https://media.carphonewarehouse.com/is/image/cpw2/p30-proCRYSTAL?$xl-retina$" width="40%"/>
-					</div>
-					<div class="col-sm-6">
-						<form action="#">
+			<div class="col-sm">
+				<div class="row h-100">
+					<div class="offset-sm-2 col-sm-8">
+						<h1 class="header-title text-center text-white pt-5">Contact us</h1>
+						<form action="#" class="pt-5">
 							<div class="form-group">
 								<input class="form-control" type="text" placeholder="Name">
 							</div>
@@ -126,7 +131,7 @@
 			</div>
 		</div>
 		<div class="row h-25">
-			<div class="col-sm" style="background-color: #000">
+			<div class="col-sm" style="border-top: 1px solid green; background-color: rgba(23, 78, 4, 0.3)">
 			</div>
 		</div>
 	</div>
