@@ -122,13 +122,18 @@
 						@if(!(Session::has('success')))
 							<form action="{{ url('sendmessage') }}" class="contact" method="POST">
 								{{ csrf_field() }}
+								<ul>
+									@foreach($errors->all() as $error)
+										<li class="text-danger">{{ $error }}</li>
+									@endforeach
+								</ul>
 								<div class="row">
 									<div class="col-sm">											
 										<div class="form-group">
-											<input name="firstname" class="form-control" type="text" placeholder="Inserisci il tuo nome">
+											<input name="nome" class="form-control" type="text" placeholder="Inserisci il tuo nome">
 										</div>
 										<div class="form-group">
-											<input name="lastname" class="form-control" type="text" placeholder="Inserisci il tuo cognome">
+											<input name="cognome" class="form-control" type="text" placeholder="Inserisci il tuo cognome">
 										</div>
 										<div class="form-group">
 											<input name="email" class="form-control" type="text" placeholder="Inserisci la tua E-Mail">
@@ -136,7 +141,7 @@
 									</div>
 									<div class="col-sm" style="border-left: 1px solid #fff">
 										<div class="form-group">							
-											<textarea name="message" class="form-control" type="text" placeholder="Messaggio" rows="4"></textarea>
+											<textarea name="messaggio" class="form-control" type="text" placeholder="Messaggio" rows="4"></textarea>
 										</div>								
 										<div class="form-group text-right">							
 											<input type="submit" value="Send" class="btn btn-lg btn-outline-light">

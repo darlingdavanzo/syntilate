@@ -12,15 +12,15 @@ class PagesController extends Controller
     public function sendMessage(Request $req){
     	$this->validate($req, [
     		'email' => 'required|email',
-    		'firstname' => 'required',
-    		'lastname' => 'required',
-    		'message' => 'required|min:10'
+    		'nome' => 'required',
+    		'cognome' => 'required',
+    		'messaggio' => 'required|min:10'
     	]);
     	$data = array(
     		'email' => $req->email,
-    		'firstname' => $req->firstname,
-    		'lastname' => $req->lastname,
-    		'bodyMessage' => $req->message // message its a reserved word
+    		'firstname' => $req->nome,
+    		'lastname' => $req->cognome,
+    		'bodyMessage' => $req->messaggio // message its a reserved word
     	);
     	Mail::send('emails.contact', $data, function($message) use ($data){
     		$message->from($data['email']);
