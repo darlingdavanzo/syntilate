@@ -183,3 +183,6 @@ section .section-title {
  .contact .form-control::-ms-input-placeholder { /* Microsoft Edge */
   color: #fff;
 }
+.form-control.is-invalid{
+    border-color: #dc3545 !important;
+}

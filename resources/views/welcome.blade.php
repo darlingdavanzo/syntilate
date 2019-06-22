@@ -118,15 +118,10 @@
 				<div class="row h-100">
 					<div class="offset-sm-2 col-sm-8 mb-5">
 						<h1 class="header-title text-center text-white pt-5">Contattaci</h1>
-						<p class="subtitle text-center text-white">Se hai dei dubbi non esitare a contattarci</p>
-						@if(!(Session::has('success')))
-							<form action="{{ url('sendmessage') }}" class="contact" method="POST">
+						<p class="subtitle text-center text-white">Se hai dei dubbi non esitare a contattarci</p>							
+								<div class="flash-message"></div>
+							<form  class="contact" method="POST" id="contactform">
 								{{ csrf_field() }}
-								<ul>
-									@foreach($errors->all() as $error)
-										<li class="text-danger">{{ $error }}</li>
-									@endforeach
-								</ul>
 								<div class="row">
 									<div class="col-sm">											
 										<div class="form-group">
@@ -149,11 +144,7 @@
 									</div>
 								</div>
 							</form>
-						@else
-							<div class="alert alert-success" role="alert">
-								<strong>Fantastico:</strong> {{ Session::get('success') }}
-							</div>
-						@endif
+						
 					</div>
 				</div>
 			</div>
@@ -245,27 +236,15 @@
 	
 	<!-- ./Footer -->
 	</div>
-
-	<!--<div id="fp-nav" class="right" style="margin-top: -50px;">
-		<ul class="nav flex-column">
-			<li class="nav-item"><a href="#home" class="nav-link active"><i class="fa fa-circle"></i></a></li>
-			<li class="nav-item"><a href="#whatwedo" class="nav-link"><i class="fa fa-circle"></i></a></li>
-			<li class="nav-item"><a href="#aboutus" class="nav-link"><i class="fa fa-circle"></i></a></li>
-			<li class="nav-item"><a href="#contactus" class="nav-link"><i class="fa fa-circle"></i></a></li>
-		</ul>
-	</div>-->
 @endsection
 
 @section('scripts')
 	{{-- Privacy Policy --}}
-	<script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);
-	</script>
+	<script src="{{ @asset('js/privacy-policy.js') }}"></script>	
 	{{-- Cookie --}}
-	<script type="text/javascript">
-		var _iub = _iub || [];
-		_iub.csConfiguration = {"lang":"it","siteId":1616509,"cookiePolicyId":32123665, "banner":{ "acceptButtonDisplay":true,"customizeButtonDisplay":true,"position":"float-top-center" }};
-	</script>
+	<script src="{{ @asset('js/iubenda-config.js') }}"></script>		
 	<script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
+	<script src="{{ @asset('js/form-sender.js') }}"></script>	
 	<script src="{{ @asset('js/particles.min.js') }}"></script>
 	<script src="{{ @asset('js/particles.js') }}"></script>
 	<script src="{{ @asset('js/landing.js') }}"></script>
