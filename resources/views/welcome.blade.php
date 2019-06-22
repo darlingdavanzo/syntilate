@@ -27,7 +27,7 @@
 				</li>
 			</ul>
 		</div>
-	</nav>
+	</nav>	
 	<div id="particles-js"></div>
 	<div  class="container-fluid h-100">
 		<div id="home" class="row h-100">
@@ -117,34 +117,38 @@
 			<div class="col-sm linearbg">
 				<div class="row h-100">
 					<div class="offset-sm-2 col-sm-8 mb-5">
-						<h1 class="header-title text-center text-white pt-5">Contact us</h1>
+						<h1 class="header-title text-center text-white pt-5">Contattaci</h1>
 						<p class="subtitle text-center text-white">Se hai dei dubbi non esitare a contattarci</p>
-						<div class="row">
-								<div class="col-sm">
-							<form action="#" class="">
-									
-									<div class="form-group">
-										<input class="form-control" type="text" placeholder="Name">
+						@if(!(Session::has('success')))
+							<form action="{{ url('sendmessage') }}" class="contact" method="POST">
+								{{ csrf_field() }}
+								<div class="row">
+									<div class="col-sm">											
+										<div class="form-group">
+											<input name="firstname" class="form-control" type="text" placeholder="Inserisci il tuo nome">
+										</div>
+										<div class="form-group">
+											<input name="lastname" class="form-control" type="text" placeholder="Inserisci il tuo cognome">
+										</div>
+										<div class="form-group">
+											<input name="email" class="form-control" type="text" placeholder="Inserisci la tua E-Mail">
+										</div>
 									</div>
-									<div class="form-group">
-										<input class="form-control" type="text" placeholder="Name">
-									</div>
-									<div class="form-group">
-										<input class="form-control" type="text" placeholder="Name">
+									<div class="col-sm" style="border-left: 1px solid #fff">
+										<div class="form-group">							
+											<textarea name="message" class="form-control" type="text" placeholder="Messaggio" rows="4"></textarea>
+										</div>								
+										<div class="form-group text-right">							
+											<input type="submit" value="Send" class="btn btn-lg btn-outline-light">
+										</div>										
 									</div>
 								</div>
-								<div class="col-sm" style="border-left: 1px solid #fff">
-									<div class="form-group">							
-										<textarea class="form-control" type="text" placeholder="Name"></textarea>
-									</div>								
-									<div class="form-group">							
-										<button class="btn btn-lg btn-outline-light">Send</button>
-									</div>								
-									
-									
 							</form>
-								</div>
-						</div>
+						@else
+							<div class="alert alert-success" role="alert">
+								<strong>Fantastico:</strong> {{ Session::get('success') }}
+							</div>
+						@endif
 					</div>
 				</div>
 			</div>

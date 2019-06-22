@@ -13,7 +13,8 @@
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('index');
+Route::post('sendmessage', 'PagesController@sendMessage');
 
 Route::get('/test', function () {
     return view('test');
