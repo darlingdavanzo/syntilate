@@ -161,11 +161,25 @@ section .section-title {
 }
 }
 /***/
-.linearbg {background: green; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #12ffc9 , #4bc35c); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #12ffc9 , #4bc35c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    color : #4bc35c;    z-index: 1}
-
+.linearbg {
+	background: #12ffc9; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #12ffc9 , #4bc35c); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #12ffc9 , #4bc35c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	color : #4bc35c;    z-index: 1
+}
+.linearbg-2{
+	background: #02aab0; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #02aab0 , #00cdac); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #02aab0 , #00cdac); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	color : #00cdac;    z-index: 1
+}
+.linearbg-3{
+	background: #434343;
+	background: -webkit-linear-gradient(#434343, #000000);
+	background: -o-linear-gradient(#434343, #000000);
+	background: linear-gradient(#434343, #000000);
+	z-index: 1;
+}
  .contact .form-control {
  	background-color: transparent;
  	border: 1px solid #fff;
@@ -186,3 +200,6 @@ section .section-title {
 .form-control.is-invalid{
     border-color: #dc3545 !important;
 }
+
+#whatwedo li.list-group-item { background-color: #343a40 !important}
+.bg-black{background-color: #272a2d}

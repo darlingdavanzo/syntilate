@@ -3,6 +3,7 @@
 
 @section('styles')
 	<link rel="stylesheet" href="{{ @asset('css/landing.css') }}">
+	<link rel="stylesheet" href="{{ @asset('css/chevron-up.css') }}">
 	<link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i|Montserrat:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 @endsection
 
@@ -44,17 +45,17 @@
 			</div>
 		</div>
 		<div id="whatwedo" class="row">
-			<div class="col-sm-12" style="background: url({{ @asset('assets/images/transp_bg.png') }}) repeat">
-				<h1 class="text-dark header-title text-center pt-5">What we do ?</h1>
-				<p class="text-dark subtitle text-center pt-5">We analyze, prototype & build software, websites, web & mobile applications <br>for a wide variety of platforms. <br><br>We offer: </p>
+			<div class="col-sm-12 linearbg-2">
+				<h1 class="text-white header-title text-center pt-5">What we do ?</h1>
+				<p class="text-white subtitle text-center pt-5">We analyze, prototype & build software, websites, web & mobile applications <br>for a wide variety of platforms. <br><br>We offer: </p>
 				<div class="container-fluid">
 					<div class="row pt-5 pb-5">
 						<div class="col-sm">
 							<div class="card bg-dark">	
 								<div class="card-body">		
-									<div class="text-white text-center" style=""><i class="fa fa-server fa-5x bg-secondary mb-2" style="border-radius: 50%; padding: 20px"></i></div>
-									<h4 class="card-title text-white text-center subtitle">Software Engineering</h4>
-									<ul class="list-group text-center">
+									<div class="text-white text-center" style=""><i class="fa fa-server fa-5x bg-info mb-2" style="border-radius: 50%; padding: 20px"></i></div>
+									<h4 class="card-title text-info text-center subtitle">Software Engineering</h4>
+									<ul class="list-group text-center text-info">
 										<li class="list-group-item">Information architecture</li>
 										<li class="list-group-item">Prototyping</li>
 										<li class="list-group-item">Digital product design</li>
@@ -68,9 +69,9 @@
 						<div class="col-sm">
 							<div class="card bg-dark">
 								<div class="card-body">
-									<div class="text-white text-center mb-2" style=""><i class="fa fa-code fa-5x bg-secondary" style="border-radius: 50%; padding: 20px"></i></div>
-									<h4 class="card-title text-white text-center subtitle">Website & Application Development</h4>
-									<ul class="list-group text-center">
+									<div class="text-white text-center mb-2" style=""><i class="fa fa-code fa-5x bg-info" style="border-radius: 50%; padding: 20px"></i></div>
+									<h4 class="card-title text-info text-center subtitle">Website & Application Development</h4>
+									<ul class="list-group text-center text-info">
 										<li class="list-group-item">Social media strategy</li>
 										<li class="list-group-item">Website analytics</li>
 										<li class="list-group-item">Search Engine Optimization (SEO)</li>
@@ -85,10 +86,10 @@
 						<div class="col-sm">
 							<div class="card bg-dark">	
 								<div class="card-body">	
-									<div class="text-white text-center mb-2" style=""><i class="fa fa-user-circle fa-5x bg-secondary" style="border-radius: 50%; padding: 20px"></i></div>
+									<div class="text-white text-center mb-2" style=""><i class="fa fa-user-circle fa-5x bg-info" style="border-radius: 50%; padding: 20px"></i></div>
 
-									<h4 class="card-title text-white text-center subtitle">IT Consulting</h4>
-									<ul class="list-group text-center">
+									<h4 class="card-title text-info text-center subtitle">IT Consulting</h4>
+									<ul class="list-group text-center text-info">
 										<li class="list-group-item">Content management systems (CMS)</li>
 										<li class="list-group-item">Front-end development</li>
 										<li class="list-group-item">Back-end development</li>
@@ -105,7 +106,7 @@
 			</div>
 		</div>
 		<div id="aboutus" class="row h-100">
-				<div class="col-sm-12 text-white" style="background: url({{ @asset('assets/images/mosaic.png') }})">
+				<div class="col-sm-12 text-white bg-black">
 								
 						<h1 class="header-title text-center pt-5">About us</h1>
 						<p class="text-white text-center pt-5 pb-5">Freedom to work on ideal projects. On GetLance, you run your own business and choose your own clients and projects. Just complete your profile and we’ll highlight ideal jobs. Also search projects, and respond to client invitations. Wide variety and high pay. Clients are now posting jobs in hundreds of skill categories, paying top price for great work. More and more success. </p>		
@@ -150,53 +151,8 @@
 			</div>
 		</div>
 
-		<!-- ICON NEEDS FONT AWESOME FOR CHEVRON UP ICON -->
-		<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
-		<style type="text/css">
-			#return-to-top {
-				z-index: 1000;
-				position: fixed;
-				bottom: 20px;
-				right: 20px;
-				background: rgb(0, 0, 0);
-				background: rgba(0, 0, 0, 0.7);
-				width: 50px;
-				height: 50px;
-				display: block;
-				text-decoration: none;
-				-webkit-border-radius: 35px;
-				-moz-border-radius: 35px;
-				border-radius: 35px;
-				display: none;
-				-webkit-transition: all 0.3s linear;
-				-moz-transition: all 0.3s ease;
-				-ms-transition: all 0.3s ease;
-				-o-transition: all 0.3s ease;
-				transition: all 0.3s ease;
-			}
-			#return-to-top i {
-				z-index: 1000;
-				color: #fff;
-				margin: 0;
-				position: relative;
-				top: 13px;
-				font-size: 19px;
-				-webkit-transition: all 0.3s ease;
-				-moz-transition: all 0.3s ease;
-				-ms-transition: all 0.3s ease;
-				-o-transition: all 0.3s ease;
-				transition: all 0.3s ease;
-			}
-			#return-to-top:hover {
-				background: rgba(0, 0, 0, 0.9);
-			}
-			#return-to-top:hover i {
-				color: #fff;
-				top: 5px;
-			}
-		</style>
 		<!-- Return to Top -->
-		<a href="#" id="return-to-top" style="display: inline;"><i class="icon-chevron-up"></i></a>
+		<a href="#" id="return-to-top" style="display: inline;"><i class="fa fa-chevron-up"></i></a>
 
 		<div class="row h-25" id="footer">
 			<div class="col-sm" style="background: url({{ @asset('assets/images/mosaic.png') }})">
