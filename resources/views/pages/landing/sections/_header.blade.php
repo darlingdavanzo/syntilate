@@ -5,4 +5,4 @@
 	solution using the latest technology standards
 </p>
 <hr class="col-md-3 mb-5 mt-5" />
-<a class="btn btn-lg btn-outline-success mb-2 ml-2 ml-2" href="#preventivo">SERVIZI</a>
+<a class="btn btn-lg btn-outline-success mb-2 ml-2 ml-2" href="#servizi">SERVIZI</a>
