@@ -32,4 +32,8 @@ class PagesController extends Controller
     	Session::flash('success', 'Il messaggio è stato inviato correttamente, grazie per averci contattato, ti ricontatteremo appena possibile!');
     	return View::make('partials/flash-messages');
     }
+
+    public function sendQuote(Request $req){
+
+    }
 }

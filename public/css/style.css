@@ -31,7 +31,7 @@ html {
 }
 
 /* section indexes */
-#preventivo, #chisiamo, #footer {
+#preventivo, #chisiamo, #servizi, #calltoaction, #contattaci, #footer {
 	z-index: 10;
 }
 
@@ -187,4 +187,94 @@ hr {
 }
 .bg-footer {
 	background-color: #0e0f10 !important;
+}
+/* servizi styles */
+#servizi h1 {
+	font-family: Abel;
+	font-weight: bold;
+	font-size: 40px;
+	letter-spacing: 2px;
+	word-spacing: 3px;
+	color: #303030;
+}
+.green-underline {
+	border: 2px solid #3b613b;
+	margin-bottom: 60px;
+	margin-top: 0;
+}
+.services-icon {
+	font-size: 50px;
+	border: 1px solid #597c59;
+	padding: 30px 30px;
+	background-color: white;
+	border-radius: 1.8em;
+	color: #3b613b;
+	border-bottom-right-radius: 0px;
+}
+.services-icon:hover {
+	transition: 200ms;
+    background-color: #597c59;
+    color: white;
+}
+#servizi h3 {
+	font-weight: bold;
+	letter-spacing: 3px;
+	word-spacing: 2px;
+	color: #7d8e7d;
+	font-size: 16px;
+	font-family: 'Rubik', sans-serif;
+}
+#servizi p {
+	font-size: 18px;
+	font-family: Abel;
+	font-weight: normal;
+	letter-spacing: 2px;
+	text-align: justify;
+}
+/* calltoaction styles */
+#calltoaction{
+	background: #12ffc9; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #12ffc9 , #4bc35c); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #12ffc9 , #4bc35c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	color : #4bc35c;
+}
+
+/* contattaci styles */
+#contattaci h1 {
+	font-family: Abel;
+	font-weight: bold;
+	font-size: 40px;
+	letter-spacing: 2px;
+	word-spacing: 3px;
+	color: #303030;
+}
+
+#contattaci h4 {
+	font-family: Abel;
+	font-size: 19px;
+	letter-spacing: 2px;
+	color: #5b5b5b;
+}
+
+#contattaci h2 {
+	font-family: Abel;
+	font-size: 24px;
+	font-weight: bold;
+	color: black;
+}
+
+#contattaci .form-control {
+	border-radius: 0px;
+	border: none;
+	border-top: 1px solid #e1e1e1;
+	background: #f2f2f2;
+	box-shadow: none !important;
+}
+
+#contattaci label {
+	font-family: 'Rubik', sans-serif;
+	display: inline-block;
+	max-width: 100%;
+	margin-bottom: 5px;
+	font-weight: 700;
 }

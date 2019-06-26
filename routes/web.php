@@ -17,5 +17,5 @@ Route::get('/', function () {
 Route::post('sendmessage', 'PagesController@sendMessage');
 
 Route::get('/test', function () {
-    return view('test');
+    return view('pages.landing.test');
 });
