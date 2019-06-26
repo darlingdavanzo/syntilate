@@ -31,7 +31,7 @@ html {
 }
 
 /* section indexes */
-#preventivo, #chisiamo, #servizi, #calltoaction, #contattaci, #footer {
+#preventivo, #chisiamo, #servizi, #calltoaction, #contattaci, #footer, #back-to-top {
 	z-index: 10;
 }
 
@@ -57,7 +57,7 @@ html {
 /* header section styles */
 .text-header-section {
 	color: #fff;	
-	font-size: 4rem;
+	font-size: 3rem;
 	font-weight: 200;
 }
 .subtext-header-section {
@@ -82,7 +82,7 @@ hr {
     text-align: center;
 }
 #preventivo h1 {
-    font-size: 65px;
+    font-size: 60px;
     letter-spacing: 8px;
     font-weight: bold;
     font-family: Abel;
@@ -292,4 +292,25 @@ hr {
 	max-width: 100%;
 	margin-bottom: 5px;
 	font-weight: 700;
+}
+/* back to top icon */
+.back-to-top {
+	cursor: pointer;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	display:none;
+}
+.btn-green {
+	color: #fff;
+	background-color: #42a832;
+	border-color: #42a832;
+}
+.btn-green:hover {
+	color: #fefefe;
+	background-color: green;
+	border-color: green;
+}
+.btn-green:focus {
+	box-shadow: none;
 }

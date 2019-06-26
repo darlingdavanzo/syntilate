@@ -10,7 +10,7 @@
 	<title>Syntilate | @yield('title')</title>
 	@yield('styles')
 </head>
-<body>
+<body data-spy="scroll" data-target="#fp-nav" data-offset="50">
 	@yield('content')
 	
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->

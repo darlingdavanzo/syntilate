@@ -9,7 +9,7 @@
 				<a class="link-footer" href="#"><i class="fa fa-angle-right"></i> Home</a>
 			</li>
 			<li>
-				<a class="link-footer" href="#"><i class="fa fa-angle-right"></i> Privacy Policy</a>
+				<a class="link-footer" href="https://www.iubenda.com/privacy-policy/32123665"><i class="fa fa-angle-right"></i> Privacy Policy</a>
 			</li>
 			<li>
 				<a class="link-footer" href="#"><i class="fa fa-angle-right"></i> Chi Siamo</a>

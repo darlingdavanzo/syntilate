@@ -8,45 +8,7 @@
 </div>
 <div class="row">
 	<div class="col-sm border-top pt-5 pl-0 pt-0">
-		<form action="#">
-			<div class="container">			
-				<div class="row">
-					<div class="col-sm-6">
-						<div class="form-group">
-							<label>Nome</label>
-							<input type="text" name="" tabindex="" class="form-control" value="">
-						</div>
-					</div>
-					<div class="col-sm-6">
-						<div class="form-group">
-							<label>Cognome</label>
-							<input type="text" name="" tabindex="" class="form-control" value="">
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-sm">					
-						<div class="form-group">
-							<label>E-Mail</label>
-							<input type="text" name="" tabindex="" class="form-control" value="">
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-sm">
-						<div class="form-group">
-							<label>Messaggio</label>
-							<textarea class="form-control" name="" id="" cols="30" rows="10"></textarea>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-sm">
-						<input class="btn btn-success" type="submit" role="button" value="Invia">
-					</div>
-				</div>
-			</div>
-		</form>
+		@include('pages.landing.forms._contattaci')
 	</div>
 	<div class="col-sm text-center">
 		<h4>

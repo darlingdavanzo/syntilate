@@ -1,4 +1,4 @@
-@extends('layouts.test')
+@extends('layouts.main')
 @section('title', 'Welcome')
 
 @section('styles')
@@ -57,10 +57,17 @@
 		</div>			
 	</div>
 </div>
+
+<a id="back-to-top" href="#" class="btn btn-green btn-lg back-to-top rounded-circle" role="button" title="Clicca per ritornare su" data-toggle="tooltip" data-placement="left"><span class="fa fa-chevron-up"></span></a>
 @endsection
 
 @section('scripts')
+	{{-- Privacy Policy --}}
+	<script src="{{ @asset('js/privacy-policy.js') }}"></script>	
+	{{-- Cookie --}}
+	<script src="{{ @asset('js/iubenda-config.js') }}"></script>		
+	<script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
 	<script src="{{ @asset('js/particles.min.js') }}"></script>
 	<script src="{{ @asset('js/particles.js') }}"></script>
-	<script src="{{ @asset('js/test.js') }}"></script>
+	<script src="{{ @asset('js/scripts.js') }}"></script>
 @endsection
