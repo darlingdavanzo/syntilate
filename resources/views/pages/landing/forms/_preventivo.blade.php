@@ -56,28 +56,25 @@
 			<div class="col-sm">
 				<div class="form-group">
 					<select class="form-control" name="">
-						<option>Seleziona servizio</option>
-						<option>Hyderabad</option>
-						<option>Sanghar</option>
-						<option>Islamabad</option>
-						<option>Karachi</option>
-						<option>Larkana</option>
-						<option>Lahore</option>
-						<option>Rawalpindi</option>
+						<option>Servizio</option>
+
+						<option>Consulenza</option>
+						<option>Sviluppo software</option>
+						<option>Estensione team</option>
+						<option>Altro</option>
 					</select>
 				</div>
 			</div>
 			<div class="col-sm">
 				<div class="form-group">															
 					<select class="form-control" name="">
-						<option>Seleziona categoria</option>
-						<option>Houses</option>
-						<option>Flates</option>
-						<option>Upper Portion</option>
-						<option>Residential Plots</option>
-						<option>Shops</option>
-						<option>Offices</option>
-						<option>Plot Forms</option>
+						<option>Stato del prodotto</option>
+
+						<option>Idea di business</option>
+						<option>Stesura requisiti</option>
+						<option>Sviluppo</option>
+						<option>Manutenzione</option>
+						<option>Altro</option>
 					</select>
 				</div>
 			</div>

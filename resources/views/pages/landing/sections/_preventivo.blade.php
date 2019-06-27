@@ -1,9 +1,9 @@
-<div class="container pt-5 pb-5">		
-	<div class="row">		
+<div class="container pt-5 pb-5">
+	<div class="row">
 		<div class="col-md-4">
-			<div class="centered-box">							
+			<div class="centered-box">
 				<h2>Richiedi subito un</h2>
-				<h1><b class="text-success">P</b>reventivo</h1>
+				<h1><b class="text-success">P</b>reventivo gratuito</h1>
 			</div>
 		</div>
 		<div class="col-md-8">
@@ -20,7 +20,7 @@
 					<div class="card-body">
 						<div class="row">
 							<div class="col-md">
-								@include('pages.landing.forms._preventivo')									
+								@include('pages.landing.forms._preventivo')
 							</div>
 						</div>
 					</div>

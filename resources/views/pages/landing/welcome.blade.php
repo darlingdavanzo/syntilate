@@ -37,6 +37,13 @@
 			</div>
 		</div>
 		<div class="row">
+			<div id="workflow" class="container-fluid bg-white">
+				<div class="container pt-5 pb-5">	
+					@include('pages.landing.sections._workflow')
+				</div>
+			</div>
+		</div>
+		<div class="row">
 			<div id="calltoaction" class="container-fluid">
 				<div class="container pt-5 pb-5">	
 					@include('pages.landing.sections._calltoaction')
