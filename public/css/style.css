@@ -288,6 +288,9 @@ hr {
 }
 
 /* contattaci styles */
+.form-control.is-invalid {
+    border: 1px solid #dc3545 !important;
+}
 #contattaci h1 {
 	font-family: Abel;
 	font-weight: bold;

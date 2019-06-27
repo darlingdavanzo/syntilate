@@ -8,6 +8,7 @@
 </div>
 <div class="row">
 	<div class="col-sm border-top pt-5 pl-0 pt-0">
+		@include('partials.flash-messages')
 		@include('pages.landing.forms._contattaci')
 	</div>
 	<div class="col-sm text-center">

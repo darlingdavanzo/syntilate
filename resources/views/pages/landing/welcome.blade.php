@@ -52,7 +52,7 @@
 		</div>
 		<div class="row">
 			<div id="contattaci" class="container-fluid bg-white">
-				<div class="container pt-5 pb-5 border-top">	
+				<div class="container pt-5 pb-5 border-top">						
 					@include('pages.landing.sections._contattaci')
 				</div>
 			</div>
