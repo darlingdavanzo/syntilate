@@ -18,7 +18,8 @@ class CreateMessagesTable extends Migration
             $table->string('firstname');
             $table->string('lastname');
             $table->string('email');
-            $table->longText('bodyMessage');            
+            $table->longText('bodyMessage'); 
+            $table->boolean('unread')->default(true);           
             $table->timestamps();
         });
     }

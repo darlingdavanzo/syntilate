@@ -20,7 +20,8 @@
 					<div class="card-body">
 						<div class="row">
 							<div class="col-md">
-								@include('pages.landing.forms._preventivo')
+								{{-- @include('pages.landing.forms._preventivo') --}}
+								<quote-form></quote-form>
 							</div>
 						</div>
 					</div>

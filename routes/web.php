@@ -16,4 +16,5 @@ Route::get('/', function () {
 })->name('index');
 
 Route::post('sendmessage', 'PagesController@sendMessage');
+Route::post('sendquote', 'PagesController@sendQuote');
 

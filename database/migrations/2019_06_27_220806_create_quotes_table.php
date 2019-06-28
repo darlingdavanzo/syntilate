@@ -18,11 +18,12 @@ class CreateQuotesTable extends Migration
             $table->string('client_firstname');
             $table->string('client_lastname');
             $table->string('email');
-            $table->integer('phone');
+            $table->tinyInteger('phone')->nullable();
             $table->string('service');
             $table->string('product_status');
             $table->string('project_name');
             $table->longText('project_desc');
+            $table->boolean('unread')->default(true);
             $table->timestamps();
         });
     }

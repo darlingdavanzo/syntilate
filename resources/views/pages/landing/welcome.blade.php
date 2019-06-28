@@ -11,7 +11,7 @@
 	<header>
 		@include('pages.landing.sections._navbar')	
 	</header>
-	<div class="container-fluid">
+	<div id="app" class="container-fluid">
 		<div class="row">
 			<div id="header" class="col-sm-8 offset-sm-2 text-center mt-5 mb-5">
 				@include('pages.landing.sections._header')				
@@ -69,6 +69,7 @@
 @endsection
 
 @section('scripts')
+	<script src="{{ @asset('js/app.js') }}"></script>
 	{{-- Privacy Policy --}}
 	<script src="{{ @asset('js/privacy-policy.js') }}"></script>	
 	{{-- Cookie --}}
