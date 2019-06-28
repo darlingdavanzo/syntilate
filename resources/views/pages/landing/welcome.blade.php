@@ -7,7 +7,6 @@
 @endsection
 
 @section('content')
-<meta name="csrf-token" content="{{ csrf_token() }}">
 	<div id="particles-js"></div>
 	<header>
 		@include('pages.landing.sections._navbar')	
@@ -70,7 +69,6 @@
 @endsection
 
 @section('scripts')
-	<script src="{{ @asset('js/app.js') }}"></script>
 	{{-- Privacy Policy --}}
 	<script src="{{ @asset('js/privacy-policy.js') }}"></script>	
 	{{-- Cookie --}}
