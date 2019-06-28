@@ -7,6 +7,7 @@
 @endsection
 
 @section('content')
+<meta name="csrf-token" content="{{ csrf_token() }}">
 	<div id="particles-js"></div>
 	<header>
 		@include('pages.landing.sections._navbar')	
