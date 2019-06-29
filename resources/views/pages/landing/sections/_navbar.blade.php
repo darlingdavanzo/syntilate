@@ -10,10 +10,13 @@
 					<a href="#home" class="nav-link">Home</a>
 				</li>
 				<li class="nav-item">
-					<a href="#servizi" class="nav-link">Chi siamo</a>
+					<a href="#preventivo" class="nav-link">Preventivo</a>
 				</li>
+				{{--<li class="nav-item">
+					<a href="#chisiamo" class="nav-link">Chi siamo</a>
+				</li>--}}
 				<li class="nav-item">
-					<a href="#team" class="nav-link">Servizi</a>
+					<a href="#servizi" class="nav-link">Servizi</a>
 				</li>
 				<li class="nav-item">
 					<a href="#contattaci" class="nav-link">Contattaci</a>

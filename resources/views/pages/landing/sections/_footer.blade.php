@@ -12,13 +12,16 @@
 				<a class="link-footer" href="https://www.iubenda.com/privacy-policy/32123665"><i class="fa fa-angle-right"></i> Privacy Policy</a>
 			</li>
 			<li>
-				<a class="link-footer" href="#"><i class="fa fa-angle-right"></i> Chi Siamo</a>
+				<a class="link-footer" href="#preventivo"><i class="fa fa-angle-right"></i> Preventivo</a>
+			</li>
+			{{--<li>
+				<a class="link-footer" href="#chisiamo"><i class="fa fa-angle-right"></i> Chi Siamo</a>
+			</li>--}}
+			<li>
+				<a class="link-footer" href="#servizi"><i class="fa fa-angle-right"></i> Servizi</a>
 			</li>
 			<li>
-				<a class="link-footer" href="#"><i class="fa fa-angle-right"></i> Servizi</a>
-			</li>
-			<li>
-				<a class="link-footer" href="#"><i class="fa fa-angle-right"></i> Contattaci</a>
+				<a class="link-footer" href="#contattaci"><i class="fa fa-angle-right"></i> Contattaci</a>
 			</li>
 		</ul>
 	</div>

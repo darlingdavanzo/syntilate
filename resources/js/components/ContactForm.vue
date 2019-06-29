@@ -54,7 +54,6 @@
 	import FormMixin from '../assets/FormMixin';
 	export default {
 		mixins: [FormMixin],
-
 		data() {
 			return {
 				'action': '/sendmessage',

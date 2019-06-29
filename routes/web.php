@@ -15,6 +15,6 @@ Route::get('/', function () {
     return view('pages.landing.welcome');
 })->name('index');
 
-Route::post('sendmessage', 'PagesController@sendMessage');
-Route::post('sendquote', 'PagesController@sendQuote');
+Route::post('/sendmessage', 'PagesController@sendMessage');
+Route::post('/sendquote', 'PagesController@sendQuote');
 

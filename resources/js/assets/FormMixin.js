@@ -11,6 +11,7 @@ export default {
 	methods: {
 		submit() {
 			if(this.loaded) {
+				console.log(this.fields);
 				this.loaded = false;
 				this.success = false;
 				this.errors = {};

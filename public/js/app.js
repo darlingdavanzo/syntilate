@@ -37865,21 +37865,17 @@ var render = function() {
                   }
                 },
                 [
-                  _c("option", [_vm._v("Servizio")]),
-                  _vm._v(" "),
-                  _c("option", { attrs: { value: "Consulenza" } }, [
-                    _vm._v("Consulenza")
+                  _c("option", { attrs: { disabled: "", value: "" } }, [
+                    _vm._v("Servizio")
                   ]),
                   _vm._v(" "),
-                  _c("option", { attrs: { value: "Sviluppo software" } }, [
-                    _vm._v("Sviluppo software")
-                  ]),
+                  _c("option", [_vm._v("Consulenza")]),
                   _vm._v(" "),
-                  _c("option", { attrs: { value: "Estensione team" } }, [
-                    _vm._v("Estensione team")
-                  ]),
+                  _c("option", [_vm._v("Sviluppo software")]),
                   _vm._v(" "),
-                  _c("option", { attrs: { value: "Altro" } }, [_vm._v("Altro")])
+                  _c("option", [_vm._v("Estensione team")]),
+                  _vm._v(" "),
+                  _c("option", [_vm._v("Altro")])
                 ]
               ),
               _vm._v(" "),
@@ -37927,25 +37923,19 @@ var render = function() {
                   }
                 },
                 [
-                  _c("option", [_vm._v("Stato del prodotto")]),
-                  _vm._v(" "),
-                  _c("option", { attrs: { value: "Idea di business" } }, [
-                    _vm._v("Idea di business")
+                  _c("option", { attrs: { disabled: "", value: "" } }, [
+                    _vm._v("Stato del prodotto")
                   ]),
                   _vm._v(" "),
-                  _c("option", { attrs: { value: "Stesura requisiti" } }, [
-                    _vm._v("Stesura requisiti")
-                  ]),
+                  _c("option", [_vm._v("Idea di business")]),
                   _vm._v(" "),
-                  _c("option", { attrs: { value: "Sviluppo" } }, [
-                    _vm._v("Sviluppo")
-                  ]),
+                  _c("option", [_vm._v("Stesura requisiti")]),
                   _vm._v(" "),
-                  _c("option", { attrs: { value: "Manutenzione" } }, [
-                    _vm._v("Manutenzione")
-                  ]),
+                  _c("option", [_vm._v("Sviluppo")]),
                   _vm._v(" "),
-                  _c("option", { attrs: { value: "Altro" } }, [_vm._v("Altro")])
+                  _c("option", [_vm._v("Manutenzione")]),
+                  _vm._v(" "),
+                  _c("option", [_vm._v("Altro")])
                 ]
               ),
               _vm._v(" "),
@@ -50324,6 +50314,7 @@ __webpack_require__.r(__webpack_exports__);
       var _this = this;
 
       if (this.loaded) {
+        console.log(this.fields);
         this.loaded = false;
         this.success = false;
         this.errors = {};
@@ -50629,8 +50620,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\Darling\Desktop\syntilate\syntilate\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\Darling\Desktop\syntilate\syntilate\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\Users\darli\Desktop\syntilate\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\darli\Desktop\syntilate\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

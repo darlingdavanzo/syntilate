@@ -53,7 +53,7 @@ class PagesController extends Controller
 			'nome' => 'required',
 			'cognome' => 'required',
 			'email' => 'required|email',
-			'telefono' => 'numeric|max:15',
+			'telefono' => 'numeric',
 			// project info 
 			'servizio' => 'required',          
 			'stato_prodotto' => 'required',   
@@ -79,17 +79,17 @@ class PagesController extends Controller
 			$message->to('info@syntilate.com');
 			$message->subject('Nuovo preventivo su Syntilate');
 		});
-
-		$quote->client_firstname = $req->nome,
-		$quote->client_lastname = $req->cognome,
-		$quote->email = $req->email,
-		$quote->phone = $req->telefono,
+		// client info
+		$quote->client_firstname = $req->nome;
+		$quote->client_lastname = $req->cognome;
+		$quote->email = $req->email;
+		$quote->phone = $req->telefono;
 		// project info 
-		$quote->service = $req->servizio,          
-		$quote->product_status = $req->stato_prodotto,   
-		$quote->project_name = $req->nome_progetto,    
-		$quote->project_desc = $req->descrizione_progetto
+		$quote->service = $req->servizio;          
+		$quote->product_status = $req->stato_prodotto;   
+		$quote->project_name = $req->nome_progetto;    
+		$quote->project_desc = $req->descrizione_progetto;
 		$quote->save();
-		return response()->json(null, 200);        
+		return response()->json(null, 200);    
 	}
 }

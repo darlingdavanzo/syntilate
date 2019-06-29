@@ -22,13 +22,13 @@
 				@include('pages.landing.sections._preventivo')
 			</div>
 		</div>
-		<div class="row">
+		{{--<div class="row">
 			<div id="chisiamo" class="container-fluid bg-white">
 				<div class="container pt-5 pb-5">	
 					@include('pages.landing.sections._chisiamo')
 				</div>
 			</div>
-		</div>
+		</div>--}}
 		<div class="row">
 			<div id="servizi" class="container-fluid bg-white">
 				<div class="container pt-5 pb-5 border-top">	

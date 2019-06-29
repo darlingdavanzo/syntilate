@@ -3,22 +3,22 @@
 <div>
 	<h2>Informazioni dell'utente</h2>
 	<hr>
-	<strong>{{ $firstname }}</strong>
+	<strong>Nome:</strong> {{ $firstname }}
 	<br>
-	<strong>{{ $lastname }}</strong>
+	<strong>Cognome:</strong> {{ $lastname }}
 	<br>
-	<strong>{{ $email }}</strong>	
+	<strong>E-Mail:</strong> {{ $email }}	
 	<br>
-	<strong>{{ $phone_number }}</strong>	
+	<strong>Telefono:</strong> {{ $phone_number }}	
 	<br>
 	<h2>Informazioni del progetto</h2>
 	<hr>
-	<strong>{{ $service }}</strong>	
+	<strong>Servizio:</strong> {{ $service }}
 	<br>
-	<strong>{{ $product_state }}</strong>	
+	<strong>Stato del prodotto:</strong> {{ $product_state }}	
 	<br>
-	<strong>{{ $project_name }}</strong>	
+	<strong>Nome del progetto:</strong> {{ $project_name }}	
 	<br>
-	<strong>{{ $project_description }}</strong>	
+	<strong>Descrizione progetto:</strong> {{ $project_description }}
 	
 </div>

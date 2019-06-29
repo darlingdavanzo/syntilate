@@ -65,11 +65,11 @@
 				<div class="col-sm">
 					<div class="form-group">
 						<select class="form-control" name="servizio" id="servizio" v-model="fields.servizio">
-							<option>Servizio</option>
-							<option value="Consulenza">Consulenza</option>
-							<option value="Sviluppo software">Sviluppo software</option>
-							<option value="Estensione team">Estensione team</option>
-							<option value="Altro">Altro</option>
+							<option disabled value="">Servizio</option>
+							<option>Consulenza</option>
+							<option>Sviluppo software</option>
+							<option>Estensione team</option>
+							<option>Altro</option>
 						</select>
 						<div v-if="errors && errors.servizio" class="text-danger">{{ errors.servizio[0] }}</div>
 					</div>
@@ -77,12 +77,12 @@
 				<div class="col-sm">
 					<div class="form-group">															
 						<select class="form-control" name="stato del prodotto" id="stato_prodotto" v-model="fields.stato_prodotto">
-							<option>Stato del prodotto</option>
-							<option value="Idea di business">Idea di business</option>
-							<option value="Stesura requisiti">Stesura requisiti</option>
-							<option value="Sviluppo">Sviluppo</option>
-							<option value="Manutenzione">Manutenzione</option>
-							<option value="Altro">Altro</option>
+							<option disabled value="">Stato del prodotto</option>
+							<option>Idea di business</option>
+							<option>Stesura requisiti</option>
+							<option>Sviluppo</option>
+							<option>Manutenzione</option>
+							<option>Altro</option>
 						</select>
 						<div v-if="errors && errors.stato_prodotto" class="text-danger">{{ errors.stato_prodotto[0] }}</div>
 					</div>
