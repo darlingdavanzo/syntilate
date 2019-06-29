@@ -1,7 +1,7 @@
 <img class="img-fluid" src="{{ @asset('assets/images/syntilate.png') }}">
 <h1 class="text-header-section">Committed to <strong><i>greatness</i></strong></h1>
 <p class="subtext-header-section">
-	Grazie al nostro know-how siamo in grado di analizzare, prototipare e sviluppare velocemente le tue soluzioni software usando le più recenti tecnologie
+	Grazie al nostro know-how siamo in grado di analizzare, prototipare e sviluppare velocemente le tue soluzioni software usando le più recenti tecnologie.
 </p>
 <div class="row">
 	
