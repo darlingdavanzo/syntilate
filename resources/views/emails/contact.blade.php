@@ -1,11 +1,12 @@
 <h1>Nuovo messaggio su Syntilate</h1>
 <hr>
 <div>
-	<strong>{{ $firstname }}</strong>
+	<hr>
+	<strong>Nome:</strong> {{ $firstname }}
 	<br>
-	<strong>{{ $lastname }}</strong>
+	<strong>Cognome:</strong> {{ $lastname }}
 	<br>
-	<strong>{{ $email }}</strong>	
+	<strong>E-Mail:</strong> {{ $email }}	
 	<br>
-	<p>{{ $bodyMessage }}</p>
+	<strong>Messaggio:</strong> {{ $bodyMessage }}
 </div>
