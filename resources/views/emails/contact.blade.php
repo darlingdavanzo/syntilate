@@ -1,7 +1,6 @@
 <h1>Nuovo messaggio su Syntilate</h1>
 <hr>
 <div>
-	<hr>
 	<strong>Nome:</strong> {{ $firstname }}
 	<br>
 	<strong>Cognome:</strong> {{ $lastname }}
