@@ -75,7 +75,7 @@ class PagesController extends Controller
 		);
 
 		Mail::send('emails.quote', $data, function($message) use ($data){
-			$message->from($data['email']);
+			$message->from('info@syntilate.com');
 			$message->to('info@syntilate.com');
 			$message->subject('Nuovo preventivo su Syntilate');
 		});
