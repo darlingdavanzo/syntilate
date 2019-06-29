@@ -29,7 +29,7 @@ class PagesController extends Controller
 			'bodyMessage' => $req->messaggio // message its a reserved word
 		);
 		Mail::send('emails.contact', $data, function($message) use ($data){
-			$message->from($data['email']);
+			$message->from('info@syntilate.com');
 			$message->to('info@syntilate.com');
 			$message->subject('Nuovo messaggio su Syntilate');
 		});
