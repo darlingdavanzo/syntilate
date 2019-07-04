@@ -12,9 +12,9 @@
 				<li class="nav-item">
 					<a href="#preventivo" class="nav-link">Preventivo</a>
 				</li>
-				{{--<li class="nav-item">
+				<li class="nav-item">
 					<a href="#chisiamo" class="nav-link">Chi siamo</a>
-				</li>--}}
+				</li>
 				<li class="nav-item">
 					<a href="#servizi" class="nav-link">Servizi</a>
 				</li>

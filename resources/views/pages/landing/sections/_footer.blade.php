@@ -36,7 +36,7 @@
 		<h5>Social</h5>
 		<ul class="list-unstyled list-inline pt-3">
 			<li class="list-inline-item">
-				<a class="link-footer-social" href="#"><i class="fa fa-2x fa-facebook"></i></a>
+				<a class="link-footer-social" href="https://www.facebook.com/syntilatedev"><i class="fa fa-2x fa-facebook"></i></a>
 			</li>
 			<li class="list-inline-item ml-3 mr-3">
 				<a class="link-footer-social" href="#"><i class="fa fa-2x fa-twitter"></i></a>
