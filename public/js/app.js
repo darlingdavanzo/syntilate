@@ -1891,6 +1891,15 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   mixins: [_assets_FormMixin__WEBPACK_IMPORTED_MODULE_0__["default"]],
@@ -1946,6 +1955,16 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _assets_FormMixin__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../assets/FormMixin */ "./resources/js/assets/FormMixin.js");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -37553,12 +37572,90 @@ var render = function() {
           ])
         ]),
         _vm._v(" "),
-        _vm._m(0)
+        _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-sm" }, [
+            _c("div", { staticClass: "form-group form-check" }, [
+              _c("input", {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.fields.privacy,
+                    expression: "fields.privacy"
+                  }
+                ],
+                staticClass: "form-check-input",
+                attrs: { type: "checkbox", id: "privacy" },
+                domProps: {
+                  checked: Array.isArray(_vm.fields.privacy)
+                    ? _vm._i(_vm.fields.privacy, null) > -1
+                    : _vm.fields.privacy
+                },
+                on: {
+                  change: function($event) {
+                    var $$a = _vm.fields.privacy,
+                      $$el = $event.target,
+                      $$c = $$el.checked ? true : false
+                    if (Array.isArray($$a)) {
+                      var $$v = null,
+                        $$i = _vm._i($$a, $$v)
+                      if ($$el.checked) {
+                        $$i < 0 &&
+                          _vm.$set(_vm.fields, "privacy", $$a.concat([$$v]))
+                      } else {
+                        $$i > -1 &&
+                          _vm.$set(
+                            _vm.fields,
+                            "privacy",
+                            $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                          )
+                      }
+                    } else {
+                      _vm.$set(_vm.fields, "privacy", $$c)
+                    }
+                  }
+                }
+              }),
+              _vm._v(" "),
+              _vm._m(0),
+              _vm._v(" "),
+              _vm.errors && _vm.errors.privacy
+                ? _c("div", { staticClass: "text-danger" }, [
+                    _vm._v(_vm._s(_vm.errors.privacy[0]))
+                  ])
+                : _vm._e()
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _vm._m(1)
       ])
     ]
   )
 }
 var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "label",
+      { staticClass: "form-check-label", attrs: { for: "privacy" } },
+      [
+        _vm._v("Ho letto e accettato l'informativa sulla "),
+        _c(
+          "a",
+          {
+            attrs: {
+              href: "https://www.iubenda.com/privacy-policy/32123665/legal",
+              target: "_blank"
+            }
+          },
+          [_vm._v("privacy")]
+        )
+      ]
+    )
+  },
   function() {
     var _vm = this
     var _h = _vm.$createElement
@@ -38032,7 +38129,63 @@ var render = function() {
           ])
         ]),
         _vm._v(" "),
-        _vm._m(2)
+        _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-sm" }, [
+            _c("div", { staticClass: "form-group form-check" }, [
+              _c("input", {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.fields.privacy,
+                    expression: "fields.privacy"
+                  }
+                ],
+                staticClass: "form-check-input",
+                attrs: { type: "checkbox", id: "privacy" },
+                domProps: {
+                  checked: Array.isArray(_vm.fields.privacy)
+                    ? _vm._i(_vm.fields.privacy, null) > -1
+                    : _vm.fields.privacy
+                },
+                on: {
+                  change: function($event) {
+                    var $$a = _vm.fields.privacy,
+                      $$el = $event.target,
+                      $$c = $$el.checked ? true : false
+                    if (Array.isArray($$a)) {
+                      var $$v = null,
+                        $$i = _vm._i($$a, $$v)
+                      if ($$el.checked) {
+                        $$i < 0 &&
+                          _vm.$set(_vm.fields, "privacy", $$a.concat([$$v]))
+                      } else {
+                        $$i > -1 &&
+                          _vm.$set(
+                            _vm.fields,
+                            "privacy",
+                            $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                          )
+                      }
+                    } else {
+                      _vm.$set(_vm.fields, "privacy", $$c)
+                    }
+                  }
+                }
+              }),
+              _vm._v(" "),
+              _vm._m(2),
+              _vm._v(" "),
+              _vm.errors && _vm.errors.privacy
+                ? _c("div", { staticClass: "text-danger" }, [
+                    _vm._v(_vm._s(_vm.errors.privacy[0]))
+                  ])
+                : _vm._e()
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _vm._m(3)
       ])
     ]
   )
@@ -38091,6 +38244,28 @@ var staticRenderFns = [
         ])
       ])
     ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "label",
+      { staticClass: "form-check-label", attrs: { for: "privacy" } },
+      [
+        _vm._v("Ho letto e accettato l'informativa sulla "),
+        _c(
+          "a",
+          {
+            attrs: {
+              href: "https://www.iubenda.com/privacy-policy/32123665/legal",
+              target: "_blank"
+            }
+          },
+          [_vm._v("privacy")]
+        )
+      ]
+    )
   },
   function() {
     var _vm = this

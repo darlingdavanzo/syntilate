@@ -20,7 +20,8 @@ class PagesController extends Controller
 			'email' => 'required|email',
 			'nome' => 'required',
 			'cognome' => 'required',
-			'messaggio' => 'required|min:10'
+			'messaggio' => 'required|min:10',
+			'privacy' => 'required'
 		]);
 		$data = array(
 			'email' => $req->email,
@@ -58,7 +59,8 @@ class PagesController extends Controller
 			'servizio' => 'required',          
 			'stato_prodotto' => 'required',   
 			'nome_progetto' => 'required',    
-			'descrizione_progetto' => 'required|min:10'
+			'descrizione_progetto' => 'required|min:10',
+			'privacy' => 'required'			
 		]);
 
 		$data = array(
