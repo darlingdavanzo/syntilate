@@ -31,7 +31,7 @@
 				<img class="img-fluid" src="{{ @asset('assets/images/darling.jpg') }}" alt="">
 			</div>
 			<div class="col-sm-12">			
-				<p class="text-justify">Guidato dalla passione per l'informatica sin dalla tenera età, Darling ha sempre cercato di stare al passo con l'evoluzione tecnologica legata ai vari standard e linguaggi di programmazione presenti sul mercato, maturando un'ottima esperienza nello sviluppo di software modulare e ottimizzato per piattaforme Mobile e Desktop.</p>
+				<p class="text-justify">Guidato dalla passione per l'informatica sin dalla tenera età, Darling è sempre stato al passo con l'evoluzione tecnologica legata ai vari standard e linguaggi di programmazione presenti sul mercato, maturando un'ottima esperienza nello sviluppo di software modulare e ottimizzato per piattaforme Mobile e Desktop.</p>
 			</div>
 		</div>
 	</div>
