@@ -17,7 +17,7 @@
 				<img class="img-fluid" src="{{ @asset('assets/images/luca.jpg') }}" alt="">
 			</div>
 			<div class="col-sm-12">	
-				<p class="text-justify">Nel suo percorso professionale ha avuto modo di lavorare in svariati ambiti quali Web Development, Mobile Development, Software Engineering e tanti altri, tale esperienza gli ha permesso di maturare un'ottima dismetichezza con le principali tecnologie legate a tali ambiti: Laravel, React Native, React per citarne alcune.</p>
+				<p class="text-justify">Nel suo percorso professionale ha avuto modo di lavorare in svariati ambiti quali Web Development, Mobile Development, Software Engineering e tanti altri, tale esperienza gli ha permesso di maturare un'ottima dimestichezza con le principali tecnologie legate a tali ambiti: Laravel, React Native, React per citarne alcune.</p>
 			</div>
 		</div>
 	</div>
