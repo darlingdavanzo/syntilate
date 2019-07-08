@@ -42,6 +42,15 @@
 			</div>
 			<div class="row">
 				<div class="col-sm">
+					<div class="form-group form-check">
+						<input type="checkbox" class="form-check-input" id="privacy" v-model="fields.privacy">
+						<label class="form-check-label" for="privacy">Ho letto e accettato l'informativa sulla <a href="https://www.iubenda.com/privacy-policy/32123665/legal" target="_blank">privacy</a></label>
+						<div v-if="errors && errors.privacy" class="text-danger">{{ errors.privacy[0] }}</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm">
 					<div class="form-group">
 						<input class="btn btn-success" type="submit" role="button" value="Invia">
 					</div>

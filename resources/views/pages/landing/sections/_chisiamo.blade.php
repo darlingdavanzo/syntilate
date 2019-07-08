@@ -17,7 +17,7 @@
 				<img class="img-fluid" src="{{ @asset('assets/images/luca.jpg') }}" alt="">
 			</div>
 			<div class="col-sm-12">	
-				<p class="text-justify">Nel suo percorso professionale ha avuto modo di lavorare in svariati ambiti quali Web Development, Mobile Development, Software Engineering e tanti altri, tale esperienza gli ha permesso di maturare un'ottima dismetichezza con le principali tecnologie legate a tali ambiti: Laravel, React Native, React per citarne alcune.</p>
+				<p class="text-justify">Nel suo percorso professionale ha avuto modo di lavorare in svariati ambiti quali Web Development, Mobile Development, Software Engineering e tanti altri, tale esperienza gli ha permesso di maturare un'ottima dimestichezza con le principali tecnologie legate a tali ambiti: Laravel, React Native, React per citarne alcune.</p>
 			</div>
 		</div>
 	</div>
@@ -31,7 +31,7 @@
 				<img class="img-fluid" src="{{ @asset('assets/images/darling.jpg') }}" alt="">
 			</div>
 			<div class="col-sm-12">			
-				<p class="text-justify">Guidato dalla passione per l'informatica sin dalla tenera età, Darling ha sempre cercato di stare al passo con l'evoluzione tecnologica legata ai vari standard e linguaggi di programmazione presenti sul mercato, maturando un'ottima esperienza nello sviluppo di software modulare e ottimizzato per piattaforme Mobile e Desktop.</p>
+				<p class="text-justify">Guidato dalla passione per l'informatica sin dalla tenera età, Darling è sempre stato al passo con l'evoluzione tecnologica legata ai vari standard e linguaggi di programmazione presenti sul mercato, maturando un'ottima esperienza nello sviluppo di software modulare e ottimizzato per piattaforme Mobile e Desktop.</p>
 			</div>
 		</div>
 	</div>

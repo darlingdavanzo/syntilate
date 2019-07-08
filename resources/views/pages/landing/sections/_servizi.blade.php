@@ -14,7 +14,7 @@
 		</div>
 		<div class="border-top pt-3 pb-3">
 			<p>L'idea di business e le persone vengono prima degli aspetti tecnici</p>
-			<p>Trasformiamo la tua visione un prodotto software concreto</p>
+			<p>Trasformiamo la tua visione in un prodotto software concreto</p>
 			<p>Rapidi feedback attraverso prototyping, wireframing, testing</p>
 			<p>Accettiamo (e pretendiamo!) continui feedback da parte tua</p>
 		</div>
