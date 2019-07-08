@@ -1,6 +1,6 @@
 <div class="row mb-5">
 	<div class="col-md-12">
-		<h1 class="chisiamo-title">Chi Siamo</h1>
+		<h1 class="chisiamo-title">Founders</h1>
 	</div>
 	<div class="col-md-1">		
 		<hr class="green-underline">
