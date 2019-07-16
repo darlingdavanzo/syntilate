@@ -28,7 +28,7 @@
 				</div>
 			</div>
 			<div class="timeline">
-				<div class="timeline-icon"><i class="fa fa-briefcase"></i></div>
+				<div class="timeline-icon"><i class="fa fa-wrench"></i></div>
 				<div class="timeline-content">
 					<h3 class="title">Sviluppo del prodotto</h3>
 					<p class="description">
@@ -37,7 +37,7 @@
 				</div>
 			</div>
 			<div class="timeline">
-				<div class="timeline-icon"><i class="fa fa-wrench"></i></div>
+				<div class="timeline-icon"><i class="fa fa-briefcase"></i></div>
 				<div class="timeline-content">
 					<h3 class="title">Rapporti futuri</h3>
 					<p class="description">
