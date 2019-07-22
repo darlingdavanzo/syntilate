@@ -22,6 +22,13 @@
 </head>
 <body>
 	@yield('content')
+		<div class="alert text-center cookiealert" role="alert">
+		Dichiari di accettare l’utilizzo di cookie chiudendo o nascondendo questo banner, proseguendo la navigazione di questa pagina, cliccando un link o un pulsante o continuando a navigare in altro modo. <a href="/privacy-policy" target="_blank">Cookie Policy</a>
+
+		<button type="button" class="btn btn-primary btn-sm acceptcookies" aria-label="Close">
+		    Accetta
+		</button>
+	</div>
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -36,6 +43,7 @@
 		gtag('config', 'UA-143366830-1');
 	</script>
 	<script src="{{ @asset('js/app.js') }}"></script>
+	<script src="{{ @asset('js/cookiealert.js') }}"></script>
 	@yield('scripts')
 </body>
 </html>

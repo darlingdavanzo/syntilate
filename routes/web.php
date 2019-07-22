@@ -15,6 +15,10 @@ Route::get('/', function () {
     return view('pages.landing.welcome');
 })->name('index');
 
+Route::get('/privacy-policy', function () {
+    return view('pages.privacy-policy');
+})->name('privacy-policy');
+
 Route::post('/sendmessage', 'PagesController@sendMessage');
 Route::post('/sendquote', 'PagesController@sendQuote');
 

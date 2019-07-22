@@ -69,11 +69,6 @@
 @endsection
 
 @section('scripts')
-	{{-- Privacy Policy --}}
-	<script src="{{ @asset('js/privacy-policy.js') }}"></script>	
-	{{-- Cookie --}}
-	<script src="{{ @asset('js/iubenda-config.js') }}"></script>		
-	<script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
 	<script src="{{ @asset('js/particles.min.js') }}"></script>
 	<script src="{{ @asset('js/particles.js') }}"></script>
 	<script src="{{ @asset('js/scripts.js') }}"></script>
