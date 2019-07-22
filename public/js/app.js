@@ -37643,16 +37643,9 @@ var staticRenderFns = [
       { staticClass: "form-check-label", attrs: { for: "privacy" } },
       [
         _vm._v("Ho letto e accettato l'informativa sulla "),
-        _c(
-          "a",
-          {
-            attrs: {
-              href: "https://www.iubenda.com/privacy-policy/33678666/legal",
-              target: "_blank"
-            }
-          },
-          [_vm._v("privacy")]
-        )
+        _c("a", { attrs: { href: "/privacy-policy", target: "_blank" } }, [
+          _vm._v("privacy")
+        ])
       ]
     )
   },
@@ -38254,16 +38247,9 @@ var staticRenderFns = [
       { staticClass: "form-check-label", attrs: { for: "privacy" } },
       [
         _vm._v("Ho letto e accettato l'informativa sulla "),
-        _c(
-          "a",
-          {
-            attrs: {
-              href: "https://www.iubenda.com/privacy-policy/33678666/legal",
-              target: "_blank"
-            }
-          },
-          [_vm._v("privacy")]
-        )
+        _c("a", { attrs: { href: "/privacy-policy", target: "_blank" } }, [
+          _vm._v("privacy")
+        ])
       ]
     )
   },
@@ -50795,8 +50781,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! c:\Users\Darling\Desktop\syntilate\syntilate\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! c:\Users\Darling\Desktop\syntilate\syntilate\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\Users\Darling\Desktop\syntilate\syntilate\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\Darling\Desktop\syntilate\syntilate\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

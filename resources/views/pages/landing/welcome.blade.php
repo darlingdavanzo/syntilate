@@ -1,5 +1,5 @@
 @extends('layouts.main')
-@section('title', 'Welcome')
+@section('title', 'Siti Web, Applicazioni Mobile e Software su misura per te')
 
 @section('styles')
 	<link rel="stylesheet" href="{{ @asset('css/style.css') }}">
